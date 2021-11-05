@@ -1,0 +1,26 @@
+@import "variables";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $gray-dark;
+  background-color: $white;
+  line-height: $line-height-base;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
