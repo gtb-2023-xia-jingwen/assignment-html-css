@@ -32,6 +32,14 @@
 
 _public/styles_ 目录下提供了 _reboot.scss 和 _variables.scss 文件，请根据需要确定是否采用。
 
+## 环境准备
+
+### 下载依赖
+
+```bash
+$ npm install
+```
+
 ### 运行网站
 
 请执行如下代码运行网站并打开页面：
