@@ -5,7 +5,7 @@ describe("Story 1: TODO list layout", () => {
 
   it("should match snapshot", () => {
     cy.matchImageSnapshot("todo-list-default", {
-      failureThreshold: 0.05,
+      failureThreshold: 0.03,
       failureThresholdType: "percent",
       customDiffConfig: { threshold: 0.1 },
     });
@@ -17,7 +17,7 @@ describe("Story 1: TODO list layout", () => {
       .invoke("show")
       .click();
     cy.matchImageSnapshot("todo-item-hover",  {
-      failureThreshold: 0.05,
+      failureThreshold: 0.03,
       failureThresholdType: "percent",
       customDiffConfig: { threshold: 0.1 },
     });

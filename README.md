@@ -10,11 +10,16 @@
 
 ![color-icon](document/color-icon.jpg)
 
-![overall](document/overall.jpg)
+- 默认字体Arial, Helvetica, sans-serif，默认字体大小16px，颜色：#343A40 ，行高1.5
+- 页面内容宽度1000px，高度为屏幕高度100%
+- 左侧边栏宽度为30%，右边宽度自适应
+- 内边距值：8px，16px，20px，40px
 
 ![aside](document/aside.jpg)
 
 ![content](document/content.jpg)
+
+![space](document/space-details.jpg)
 
 ## 技术提示
 
@@ -26,7 +31,9 @@
 
 ### Icon
 
-设计稿中使用的 Icon 为 [Bootstrap Icon](https://icons.getbootstrap.com/), 可以通过 Download 到本地或者 CDN 的方式使用，详细请参考 https://icons.getbootstrap.com/
+设计稿中使用的 Icon 为 [Bootstrap Icon](https://icons.getbootstrap.com/), 
+Icon font 可以通过 Download 到本地或者 CDN 的方式使用，但是 CDN 的方式访问可能会不稳定，建议使用 SVG 的方式，
+详细请参考 https://icons.getbootstrap.com/
 
 ### Sass
 
@@ -58,8 +65,14 @@ $ npm start
 $ npm start
 $ npm run test
 ```
-测试结果图像位置：_cypress/snapshots_
-如果测试失败，查看图像差异位置：_cypress/screenshots_
+本次 assignment 用了[cypress](https://www.cypress.io/) 以及 [cypress 图像对比](https://github.com/jaredpalmer/cypress-image-snapshot) 进行测试
+
+- 测试文件位置： cypress/integration/todos.test.js
+- 测试会打开 1200 * 600 的网页窗口测试页面完成度  
+- 测试会对比实际页面完成度与 base 图像之间的差异  
+- 测试 base 图像位置：cypress/snapshots/todos.test.js/*
+- 如果测试失败，查看图像差异位置：cypress/snapshots/todos.test.js/diff_output/*
+
 
 ## 提交要求
 - 请在 coach 建议的完成时间内提交，提交时请确保录屏也已完成；
