@@ -14,8 +14,7 @@ describe("Story 1: TODO list layout", () => {
   it("should match snapshot when hover on todo item", () => {
     cy.get(".todo-lists li:first .operator")
       .should("be.hidden")
-      .invoke("show")
-      .click();
+      .invoke("show");
     cy.matchImageSnapshot("todo-item-hover",  {
       failureThreshold: 0.03,
       failureThresholdType: "percent",
