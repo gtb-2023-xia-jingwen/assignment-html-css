@@ -4,7 +4,7 @@
 
 实现静态页面，创建基本的页面结构和样式，暂不会涉及任何动态的效果，效果如下：
 
-![todo-list](document/todo-list.jpg)
+![todo-list](document/todo-list-hover.png)
 
 页面设计细节如下：
 
