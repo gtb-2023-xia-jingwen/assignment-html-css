@@ -8,16 +8,14 @@
 
 页面设计细节如下：
 
-![color-icon](document/color-icon.jpg)
+![color-icon](document/color-icon.png)
 
 - 默认字体Arial, Helvetica, sans-serif，默认字体大小16px，颜色：#343A40 ，行高1.5
 - 页面内容宽度1000px，高度为屏幕高度100%
 - 左侧边栏宽度为30%，右边宽度自适应
 - 内边距值：8px，16px，20px，40px
 
-![aside](document/aside.jpg)
-
-![content](document/content.jpg)
+![aside](document/overall.png)
 
 ![space](document/space-details.jpg)
 
