@@ -12,7 +12,7 @@
 
 - 默认字体Arial, Helvetica, sans-serif，默认字体大小16px，颜色：#343A40 ，行高1.5
 - 页面内容宽度1000px，高度为屏幕高度100%
-- 左侧边栏宽度为30%，右边宽度自适应
+- 左侧边栏宽度为30%，右边宽度70%
 - 内边距值：8px，16px，20px，40px
 
 ![aside](document/overall.png)
@@ -30,7 +30,7 @@
 ### Icon
 
 设计稿中使用的 Icon 为 [Bootstrap Icon](https://icons.getbootstrap.com/), 
-Icon font 可以通过 Download 到本地或者 CDN 的方式使用，但是 CDN 的方式访问可能会不稳定，建议使用 SVG 的方式，
+Icon font 可以通过 Download 到本地或者 CDN 的方式使用，但是 CDN 的方式访问可能会不稳定，建议使用本地 icon font css: _public/styles/bootstrap-icons.css_  或者 SVG 的方式，
 详细请参考 https://icons.getbootstrap.com/
 
 ### Sass
