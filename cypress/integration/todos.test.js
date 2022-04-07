@@ -12,10 +12,10 @@ describe("Story 1: TODO list layout", () => {
   });
 
   it("should match snapshot when hover on todo item", () => {
-    cy.get(".todo-lists li:first .operator")
+    cy.get(".todo-lists li:first .delete-btn")
       .should("be.hidden")
       .invoke("show");
-    cy.matchImageSnapshot("todo-item-hover",  {
+    cy.matchImageSnapshot("todo-item-hover", {
       failureThreshold: 0.03,
       failureThresholdType: "percent",
       customDiffConfig: { threshold: 0.1 },
