@@ -17,7 +17,7 @@
 
 ![aside](document/overall.png)
 
-![space](document/space-details.jpg)
+![space](document/space.jpg)
 
 ## 技术提示
 
