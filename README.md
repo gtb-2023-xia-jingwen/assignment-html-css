@@ -19,6 +19,8 @@
 
 ![space](document/space.jpg)
 
+![todo-list](document/todo-list.gif)
+
 ## 技术提示
 
 此问题需要修改的代码位于 _public_ 目录下。CSS 文件请放在 _public/styles_ 目录下，如果有JS，请放在 _public/scripts_ 目录下。
