@@ -8,7 +8,7 @@ describe("Story 1: TODO list layout", () => {
       .should("be.hidden")
       .invoke("show");
     cy.matchImageSnapshot("todo-item-hover", {
-      failureThreshold: 0.02,
+      failureThreshold: 0.03,
       failureThresholdType: "percent",
       customDiffConfig: { threshold: 0.1 },
       capture: "viewport",
