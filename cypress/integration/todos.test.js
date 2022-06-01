@@ -7,15 +7,6 @@ describe("Story 1: TODO list layout", () => {
     cy.get("ul.todo-lists li:first .delete-btn")
       .should("be.hidden")
       .invoke("show");
-    cy.compareSnapshot("todo-item-hover", {
-      capture: "fullPage",
-      errorThreshold: 0.1,
-    });
-    // cy.matchImageSnapshot("todo-item-hover", {
-    //   failureThreshold: 0.03,
-    //   failureThresholdType: "percent",
-    //   customDiffConfig: { threshold: 0.1 },
-    //   capture: "viewport",
-    // });
+    cy.compareSnapshot("todo-page", 0.1);
   });
 });

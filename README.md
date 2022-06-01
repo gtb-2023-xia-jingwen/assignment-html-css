@@ -65,13 +65,12 @@ $ npm start
 $ npm start
 $ npm run test
 ```
-本次 assignment 用了[cypress](https://www.cypress.io/) 以及 [cypress 图像对比](https://github.com/jaredpalmer/cypress-image-snapshot) 进行测试
+本次 assignment 用了[cypress](https://www.cypress.io/) 以及 [cypress-visual-regression](https://github.com/mjhea0/cypress-visual-regression) 进行测试
 
 - 测试文件位置： cypress/integration/todos.test.js
 - 测试会打开 1200 * 600 的网页窗口测试页面完成度  
-- 测试会对比实际页面完成度与 base 图像之间的差异  
-- 测试 base 图像位置：cypress/snapshots/todos.test.js/*
-- 如果测试失败，查看图像差异位置：cypress/snapshots/todos.test.js/diff_output/*
+- 测试会对比实际页面完成度与 base 图像之间的差异
+![](document/cypress-image-snapshot.png)
 
 
 ## 提交要求
