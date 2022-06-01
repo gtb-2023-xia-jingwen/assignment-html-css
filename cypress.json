@@ -2,5 +2,7 @@
   "baseUrl": "http://localhost:3000",
   "video": false,
   "viewportWidth": 1200,
-  "viewportHeight": 600
+  "viewportHeight": 600,
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true
 }
