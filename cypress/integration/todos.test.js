@@ -7,6 +7,11 @@ describe("Story 1: TODO list layout", () => {
     cy.get("ul.todo-lists li:first .delete-btn")
       .should("be.hidden")
       .invoke("show");
-    cy.compareSnapshot("todo-page", 0.1);
+
+    if (Cypress.platform === "darwin") {
+      cy.compareSnapshot("todo-page-mac", 0.1);
+    } else {
+      cy.compareSnapshot("todo-page-windows", 0.1);
+    }
   });
 });

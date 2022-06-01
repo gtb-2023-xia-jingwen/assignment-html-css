@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server -p 3000 -o -c-1",
+    "test:base": "cypress run --headless --env type=base",
     "test": "cypress run --headless --env type=actual"
   },
   "keywords": [],
