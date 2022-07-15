@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.1.1",
+    "cypress": "^9.7.0",
     "cypress-visual-regression": "^1.7.0",
     "http-server": "^14.0.0",
     "prettier": "^2.4.1"
