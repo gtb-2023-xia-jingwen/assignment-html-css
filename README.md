@@ -99,10 +99,10 @@ $ npm run test
   - 代码是否遵循了小步提交原则
   - 代码的提交信息是否明确有意义
 - **快捷键（本次 assignment 需要练习以下几个快捷键）**
-  - 切换 Idea 和浏览器 (cmd + Tab)
-  - 打开浏览器的调试窗口 (F12 或者 cmd + opt + i/j)
-  - 刷新浏览器缓存 (cmd + shift + R)
-  - 通过最近打开的文件切换 html 和 css 文件 (cmd + E)
+  - 切换 IntelliJ 和浏览器 (Mac: Cmd + Tab / Windows: Alt + Tab)
+  - 打开浏览器的调试窗口 (F12 或者 Cmd + Opt + I for Mac)
+  - 清除浏览器缓存并刷新页面 (Mac: Cmd + Shift + R / Windows: Ctrl + Shift + R)
+  - 在 IntelliJ 中通过最近打开的文件切换 html 和 css 文件 (Mac: Cmd + E / Windows: Ctrl + E)
 
 根据以上标准，评级会分为四个级别：
 - **Level-0**：无法达到 Level-1 时，或录屏中代码绝大部分是 copy 过来，没有体现手动编写的过程的
