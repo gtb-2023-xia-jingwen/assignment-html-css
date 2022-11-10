@@ -1,127 +1,139 @@
-<!DOCTYPE html>
+<!DOCtYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <title>TODO List</title>
-  </head>
-  <body>
-  <main>
+<head>
+    <meta charset="UtF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <title>tODO List</title>
+</head>
+<body>
+<main>
     <aside>
-      <header>
-        <i class="bi-inbox"></i>
-        <h2>Inbox</h2>
-        <span>14</span>
-      </header>
-      <header>
-        <h2>清单</h2>
-        <span>1</span>
-      </header>
-      <ul>
-        <li>
-          <i class="bi-book"></i>
-          <h3>学习</h3>
-          <span>30</span>
-        </li>
-
-        <li>
-          <i class="bi-book"></i>
-          <h3>学习</h3>
-          <span>30</span>
-        </li>
-        <li>
-          <i class="bi-briefcase"></i>
-          <h3>工作</h3>
-          <span>20</span>
-        </li>
-        <li>
-          <i class="bi-house"></i>
-          <h3>生活</h3>
-          <span>10</span>
-        </li>
-        <li>
-          <i class="bi-list"></i>
-          <h3>其他</h3>
-          <span>10</span>
-        </li>
-      </ul>
-      <header>
-        <h2>标签</h2>
-        <i class="plus"></i>
-      </header>
-      <ul>
-        <li>
-          <i class="bi-tag"></i>
-          <h3>工具</h3>
-          <span>3</span>
-        </li>
-        <li>
-          <i class="bi-tag"></i>
-          <h3>书籍</h3>
-          <span>2</span>
-        </li>
-        <li>
-          <i class="bi-tag"></i>
-          <h3>运动</h3>
-          <span>1</span>
-        </li>
-        <li>
-          <i class="bi-tag"></i>
-          <h3>电影</h3>
-          <span>1</span>
-        </li>
-      </ul>
+        <header>
+            <i class="bi-inbox"></i>
+            <h2>Inbox</h2>
+            <span>14</span>
+        </header>
+        <header>
+            <h2>清单</h2>
+            <i class="bi-plus"></i>
+        </header>
+        <ul>
+            <li>
+                <i class="bi-book"></i>
+                <h3>学习</h3>
+                <span>30</span>
+            </li>
+            <li>
+                <i class="bi-briefcase"></i>
+                <h3>工作</h3>
+                <span>20</span>
+            </li>
+            <li>
+                <i class="bi-house"></i>
+                <h3>生活</h3>
+                <span>10</span>
+            </li>
+            <li>
+                <i class="bi-list"></i>
+                <h3>其他</h3>
+                <span>10</span>
+            </li>
+        </ul>
+        <header>
+            <h2>标签</h2>
+            <i class="bi-plus"></i>
+        </header>
+        <ul>
+            <li>
+                <i class="bi-tag"></i>
+                <h3>工具</h3>
+                <span>3</span>
+            </li>
+            <li>
+                <i class="bi-tag"></i>
+                <h3>书籍</h3>
+                <span>2</span>
+            </li>
+            <li>
+                <i class="bi-tag"></i>
+                <h3>运动</h3>
+                <span>1</span>
+            </li>
+            <li>
+                <i class="bi-tag"></i>
+                <h3>电影</h3>
+                <span>1</span>
+            </li>
+        </ul>
     </aside>
     <section class="contents">
-      <h2>Use this to manage your life and work</h2>
-      <section class="input-item">
-        <input type="text" placeholder="Enter your todo item">
-        <i class="bi-plus-lg"></i>
-      </section>
-      <section class="todo-items">
-        <ul>
-          <li>
-            <input type="checkbox">
-            <label>This is a short item</label>
-            <i class="bi-trash"></i>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>This is a short item, This is a short item</label>
-            <i class="bi-trash"></i>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>This is a long item, This is a long item, This is a long item, This is a long item, This is a long item</label>
-            <i class="bi-trash"></i>
-          </li>
-          <li>
-            <input type="checkbox">
-            <label>This is a short item</label>
-            <i class="bi-trash"></i>
-          </li>
-        </ul>
-      </section>
-      <h2>Completed</h2>
-      <section class="completed-items">
-        <ul>
-          <li>
-            <input type="checkbox" checked>
-            <label>This is a short item</label>
-          </li>
-          <li>
-            <input type="checkbox" checked>
-            <label>This is a short item, This is a short item</label>
-          </li>
-          <li>
-            <input type="checkbox" checked>
-            <label>This is a long item, This is a long item, This is a long item, This is a long item</label>
-          </li>
-        </ul>
-      </section>
+        <h2>Use this to manage your life and work</h2>
+        <section class="input-item">
+            <input type="text" placeholder="Enter your todo item">
+            <i class="bi-plus-lg"></i>
+        </section>
+        <section class="todo-items">
+            <ul class="todo-lists">
+                <li>
+                    <input type="checkbox">
+                    <label>this is a short item</label>
+                    <i class="bi-trash delete-btn"></i>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>this is a short item, this is a short item</label>
+                    <i class="bi-trash"></i>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>this is a long item, this is a long item, this is a long item, this is a long item, this is a
+                        long item</label>
+                    <i class="bi-trash"></i>
+                </li>
+
+                <li>
+                    <input type="checkbox">
+                    <label>this is a long item, this is a long item, this is a long item, this is a long item, this is a
+                        long item</label>
+                    <i class="bi-trash"></i>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>this is a short item</label>
+                    <i class="bi-trash"></i>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>this is a short item, this is a short item</label>
+                    <i class="bi-trash"></i>
+                </li>
+            </ul>
+        </section>
+        <h2>Completed</h2>
+        <section class="completed-items">
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <label>this is a short item</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <label>this is a short item, this is a short item</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <label>this is a long item, this is a long item, this is a long item, this is a long item</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" checked>
+                    <label>this is a long item, this is a long item, this is a long item, this is a long item</label>
+                </li>
+            </ul>
+        </section>
     </section>
-  </main>
-  </body>
+</main>
+</body>
 </html>

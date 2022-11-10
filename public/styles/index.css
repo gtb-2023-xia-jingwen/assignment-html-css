@@ -64,8 +64,10 @@ aside header {
   border-bottom: 1px solid #dfdfdf;
 }
 aside header i {
-  margin-right: 8px;
   font-size: 20px;
+}
+aside header i:first-child {
+  margin-right: 8px;
 }
 aside header h2 {
   flex: 1;
@@ -84,6 +86,7 @@ aside ul li {
 aside ul li h3 {
   flex: 1;
   margin-left: 8px;
+  font-size: 1rem;
 }
 aside h2 {
   font-size: 20px;
