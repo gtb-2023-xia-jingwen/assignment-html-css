@@ -1,0 +1,19 @@
+@import "reboot";
+@import "variables";
+@import "aside";
+
+body {
+  background-color: $gray-light;
+
+  main {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+
+    .contents {
+      width: 70%;
+    }
+  }
+
+}
