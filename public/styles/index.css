@@ -89,6 +89,122 @@ aside h2 {
   font-size: 20px;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #343a40;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contents {
+  width: 70%;
+  height: 100vh;
+  padding: 16px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.contents h2, .contents h3 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.contents h2 {
+  font-size: 20px;
+  margin: 16px 0;
+}
+.contents h2:first-child {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 0px;
+  text-align: center;
+}
+.contents .input-item {
+  margin-bottom: 16px;
+  display: flex;
+}
+.contents .input-item input {
+  flex: 1;
+  height: 48px;
+  font-size: 20px;
+  border: 1px solid #a9a9a9;
+  text-indent: 16px;
+  border-radius: 3px;
+}
+.contents .input-item input:focus {
+  outline: none;
+  border: 1px solid #7dced5;
+}
+.contents .input-item i {
+  font-size: 32px;
+  color: white;
+  width: 48px;
+  text-align: center;
+  margin-left: 8px;
+  border-radius: 3px;
+  background-color: #7dced5;
+}
+.contents .input-item i:active {
+  background-color: #31c5d3;
+}
+.contents .todo-items {
+  min-height: 140px;
+  overflow: auto;
+}
+.contents .completed-items {
+  height: 140px;
+  overflow: auto;
+}
+.contents .todo-items li, .contents .completed-items li {
+  padding: 0 16px;
+  height: 40px;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.contents .todo-items li:last-child, .contents .completed-items li:last-child {
+  margin-bottom: 0;
+}
+.contents .todo-items li input, .contents .completed-items li input {
+  margin-right: 8px;
+}
+.contents .todo-items li .bi-trash, .contents .completed-items li .bi-trash {
+  margin-left: 8px;
+  display: none;
+}
+.contents .todo-items li:hover .bi-trash, .contents .completed-items li:hover .bi-trash {
+  display: block;
+  color: red;
+}
+.contents .todo-items li label, .contents .completed-items li label {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.contents .completed-items li label {
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+
 body {
   background-color: #f9f9f9;
 }
@@ -97,9 +213,6 @@ body main {
   display: flex;
   margin: 0 auto;
   background-color: white;
-}
-body main .contents {
-  width: 70%;
 }
 
 /*# sourceMappingURL=index.css.map */

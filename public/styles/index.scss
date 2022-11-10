@@ -1,6 +1,7 @@
 @import "reboot";
 @import "variables";
 @import "aside";
+@import "content";
 
 body {
   background-color: $gray-light;
@@ -10,10 +11,6 @@ body {
     display: flex;
     margin: 0 auto;
     background-color: white;
-
-    .contents {
-      width: 70%;
-    }
   }
 
 }
