@@ -121,6 +121,7 @@ ol {
   width: 70%;
   height: 100vh;
   padding: 16px 40px;
+  padding-bottom: 28px;
   display: flex;
   flex-direction: column;
 }
@@ -136,7 +137,7 @@ ol {
 .contents h2:first-child {
   font-weight: bold;
   font-style: italic;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: center;
 }
 .contents .input-item {
@@ -148,7 +149,7 @@ ol {
   height: 48px;
   font-size: 20px;
   border: 1px solid #a9a9a9;
-  text-indent: 16px;
+  text-indent: 14px;
   border-radius: 3px;
 }
 .contents .input-item input:focus {
@@ -187,15 +188,15 @@ ol {
   margin-bottom: 0;
 }
 .contents .todo-items li input, .contents .completed-items li input {
-  margin-right: 8px;
+  margin-right: 11px;
 }
 .contents .todo-items li .bi-trash, .contents .completed-items li .bi-trash {
-  margin-left: 8px;
   display: none;
 }
 .contents .todo-items li:hover .bi-trash, .contents .completed-items li:hover .bi-trash {
   display: block;
   color: red;
+  margin-right: 8px;
 }
 .contents .todo-items li label, .contents .completed-items li label {
   flex: 1;

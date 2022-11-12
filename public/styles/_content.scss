@@ -4,8 +4,9 @@
 
 .contents {
   width: 70%;
-  height: 100vh;
+  height: 100vh; // for scale todo-items
   padding: 16px 40px;
+  padding-bottom: 28px; // for test
   display: flex;
   flex-direction: column;
 
@@ -22,7 +23,7 @@
     &:first-child {
       font-weight: bold;
       font-style: italic;
-      margin-top: 0px;
+      margin-top: 0;
       text-align: center;
     }
 
@@ -37,7 +38,7 @@
       height: 48px;
       font-size: 20px;
       border: 1px solid $gray;
-      text-indent:16px;
+      text-indent: 14px; // for test
       border-radius: 3px;
     }
 
@@ -71,7 +72,7 @@
     overflow: auto;
   }
 
-  .todo-items li, .completed-items li{
+  .todo-items li, .completed-items li {
     padding: 0 16px;
     height: 40px;
     background-color: $gray-light;
@@ -84,11 +85,10 @@
     }
 
     input {
-      margin-right: 8px;
+      margin-right: 11px; // for test
     }
 
     .bi-trash {
-      margin-left: 8px;
       display: none;
     }
 
@@ -96,6 +96,7 @@
       .bi-trash {
         display: block;
         color: red;
+        margin-right: 8px;
       }
     }
 
